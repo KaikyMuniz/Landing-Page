@@ -1,0 +1,35 @@
+.entre-contato-container{
+    background-image: linear-gradient(100deg, #222041, #060613c0);
+    min-height: 20vh;
+    min-width: 100vw;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    top: 310vh;
+    padding: 0 0 0 10px;
+
+}
+
+.container-contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.container-contato span{
+    display: flex;
+    place-items: center;
+    margin: 0 0 0 40px;
+}
+
+.container-contato img{
+    width: 30px;
+    margin: 0 5px 0 0;
+}
+
+.container-contato a{
+    text-decoration: underline;
+    color: #FFF;
+}

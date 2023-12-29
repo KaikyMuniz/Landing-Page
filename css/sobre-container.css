@@ -1,0 +1,52 @@
+.sobre-nos-container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+    position: absolute;
+    z-index: 1;
+    color: #000;
+}
+
+.container-texto-sobre{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.sobre-nos-container h1{
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.sobre-nos-container button{
+    background-color: #6C63FF;
+    color: #E4E4E6;
+    border: solid #6C63FF 2px;
+    border-radius: 5px;
+    width: 14vw;
+    height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    transition: 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.sobre-nos-container button:hover{
+    background-color: transparent;
+    border-radius: 7px;
+    color: #000;
+}
+
+.sobre-nos-container img{
+    height: 120vh;
+}
+
+.sobre-nos-container .container-imagem-sobre{
+    min-height: 120vh;
+    display: flex;
+    align-items: end;
+}
